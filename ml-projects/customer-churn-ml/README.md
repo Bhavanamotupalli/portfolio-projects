@@ -70,3 +70,15 @@ Future improvements would focus on increasing recall while balancing precision.
 ```bash
 pip install -r requirements.txt
 python src/train.py
+
+## 📂 Project Structure
+
+customer-churn-ml/
+│
+├── data/
+├── src/
+│   └── train.py
+├── requirements.txt
+└── README.md
+
+
