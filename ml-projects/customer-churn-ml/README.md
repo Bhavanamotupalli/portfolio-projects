@@ -94,5 +94,5 @@ Accuracy: 80.5%
 
 ### Confusion Matrix
 
-![Confusion Matrix](https://raw.githubusercontent.com/Bhavanamotupalli/portfolio-projects/main/ml-projects/customer-churn-ml/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
