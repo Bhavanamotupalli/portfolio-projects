@@ -24,4 +24,9 @@ Scikit-learn • LangChain • Docker • Git
 
 ---
 
-More projects coming soon 🚀
+## 📌 Projects
+
+### ✅ Customer Churn Prediction (Machine Learning)
+- Folder: `ml-projects/customer-churn-ml`
+- Details + metrics + confusion matrix:  
+  👉 [View Project README](ml-projects/customer-churn-ml/README.md)
