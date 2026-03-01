@@ -60,3 +60,18 @@ predictions = clf.predict(X_test)
 print("Accuracy:", round(accuracy_score(y_test, predictions), 4))
 print("\nConfusion Matrix:\n", confusion_matrix(y_test, predictions))
 print("\nClassification Report:\n", classification_report(y_test, predictions))
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+cm = confusion_matrix(y_test, predictions)
+
+plt.figure(figsize=(5,4))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.tight_layout()
+plt.savefig("confusion_matrix.png")
+plt.show()
