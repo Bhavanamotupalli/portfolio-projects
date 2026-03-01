@@ -81,7 +81,7 @@ customer-churn-ml/
 ├── requirements.txt
 └── README.md
 
-'''
+---
 ## Model Performance
 
 Accuracy: 80.5%
@@ -90,3 +90,4 @@ Accuracy: 80.5%
 ### Confusion Matrix
 
 ![Confusion Matrix](confusion_matrix.png)
+'''
