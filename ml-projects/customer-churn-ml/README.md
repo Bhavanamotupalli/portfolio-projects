@@ -81,7 +81,6 @@ customer-churn-ml/
 ├── requirements.txt
 └── README.md
 
----
 '''
 ## Model Performance
 
