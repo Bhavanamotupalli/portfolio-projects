@@ -70,7 +70,7 @@ Future improvements would focus on increasing recall while balancing precision.
 ```bash
 pip install -r requirements.txt
 python src/train.py
-
+---
 ## 📂 Project Structure
 
 customer-churn-ml/
@@ -81,11 +81,13 @@ customer-churn-ml/
 ├── requirements.txt
 └── README.md
 
+---
 
 ## Model Performance
 
 Accuracy: 80.5%
 
+---
 ### Confusion Matrix
 
 ![Confusion Matrix](confusion_matrix.png)
